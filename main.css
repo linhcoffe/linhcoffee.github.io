@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+1.tu ngoai vao trong 
+2.tu tren xuong duoi 
+3.Tong quan den chi tiet 
+*/
+/*
+1.vi tri
+2.kich thuoc 
+3.mau sac
+4.kieu dang
+*/
+#main {
+
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior:smooth;
+}
+#header {
+   height: 100px;
+   background-color: black;
+   border-width: 0.1px;
+   border-style: solid;
+   height: 100px; 
+   border-bottom-color: rgba(255, 255, 255, 0.788);
+   position : fixed; /*kéo vẫn hiện*/
+   top : 0  ;
+   right : 0 ; /*dính bên phải */
+   left : 0 ;
+   z-index: 10;
+}
+.imgaes-header > img{
+    height: 97px;
+    width: 97px;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+#name{
+    display: inline;
+    text-align: center;
+    display: block;
+    margin-top: -100px;
+}
+.name-ten li{
+    display: inline-block;
+    /*inline : treen 1 hang , block : 1 khois */
+}
+.name-ten li  a{
+   color: #fff;  
+   text-decoration: none;/*bỏ gạch chân tag a */
+   list-style-type:none; /*đây là xóa dấu chấm ul li */
+   font-size: 15px;
+   line-height: 100px;
+   padding: 0 30px;
+}
+.name-ten li:hover a  {
+    color: #d3ad7f;
+    border-bottom: .1rem solid #d3ad7f;
+    padding-bottom: .5rem;
+}
+#header i{
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    margin-top: -60px;
+}
+#header i:hover {
+    color: #d3ad7f;
+}
+
+#homer {
+}
+.home img{
+    height: 800px;
+    width: 100%;
+}
+#homer .league1{
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 80px;
+    color: #fff;
+}
+#abouter .about-us{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    margin-top: -100px;
+}
+.about-us h1{
+    font-size: 30px;
+    color: #d3ad7f;
+    text-align: center;
+    padding-top: 30px;
+}
+.about-us img{
+    height: 450px;
+    width: 659px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.about-us .xx{
+    height: 450px;
+    width: 659px;
+    background-color: rgba(100, 97, 112, 0.322);
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.about-us .xx{
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.xx h2{
+    margin-bottom: 50px;
+}
+
+#menuer {
+    height: 900px;
+    width: 100%;
+    background-color: #000;
+    padding-top: -150px;
+}
+#full-menu img {
+    height: 120px;
+    width: 120px;
+}
+#full-menu img{
+    border-radius: 100%;
+    margin-left:30%;
+    margin-top: 40px;
+}
+#full-menu div{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 177, 179);
+    width: 310px;
+    height: 370px; 
+    margin-left: 60px;
+    margin-top: 20px;
+    float:left;
+}
+#full-menu  h2{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+#full-menu i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#full-menu strike{
+    color: #d3ad7f;
+    margin-left: 10px;
+}
+
+#full-menu .menu1:hover{
+   background-color: #fff;
+    transition: 1.5s;
+}
+#full-menu .menu1:hover h2 {
+    color: #000;  
+}
+#full-menu .menu1:hover i {
+    color: #000;
+}
+
+#addresser{
+    height: 750px;
+    width: 100%;
+    background-color: #000;
+}
+#addresser .firt{
+    text-align: center;
+    color: #d3ad7f;
+}
+.address{
+    margin-top: 30px;
+}
+#addresser .dangnhap{
+    height: 450px;
+    width: 659px;
+    background-color: rgba(100, 97, 112, 0.322);
+    float : right;
+    margin-right: 100px;
+}
+.dangnhap input{
+    height: 50px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 177, 179);
+}
+
+.summit{
+    height: 30px;
+    width: 70px;
+    background-color: #d3ad7f;
+    border-bottom: #fff;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+#expertser{
+    height: 750px;
+    width: 100%;
+    background-color: #000;
+   margin-top: -150px;
+}
+ 
+.experts .teacher{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 177, 179);
+    width: 420px;
+    height: 450px; 
+    margin-left: 65px;
+    margin-top: 50px;
+    float:left;
+}
+
+.experts .pp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 38%;
+}
+.teacher p {
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+}
+.teacher i{
+    float: left;
+   
+    color: #d3ad7f;
+    
+}
+.iteacher {
+    margin-left: 165px;
+}
+#end{
+    height: 250px;
+    width: 100%;
+    background-color:#13131a;
+}
+.icon{
+    padding-top:20px;
+    margin-left: 630px;
+}
+.icon .aa{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 177, 179);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+}
+.aa i{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 11px;
+}
+
+.icon :hover.aa{
+    background-color: #d3ad7f;
+}
+
+.chicho{
+    margin-top: 110px;
+    margin-left: 450px;
+}
+
+.chicho .bb{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 177, 179);
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.bb a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.chicho :hover.bb{
+    background-color: #d3ad7f;
+}
+#end .cc{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
